@@ -1,0 +1,1898 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Language(s) using expression grel:replace(value,\"In \",\"\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "grel:replace(value,\"In \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Language(s) using expression grel:replace(value,\"In \",\"\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "grel:replace(value,\"In \",\"\")",
+    "onError": "keep-original",
+    "repeat": true,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Language(s) using expression grel:value",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "grel:value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with a few terms in Greek (f. 11r-12r)"
+        ],
+        "to": "Latin; Greek"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Italian, with Latin for some figure numbers"
+        ],
+        "to": "Italian; Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Italian",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Italian and Latin"
+        ],
+        "to": "Italian;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Italian",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Italian;Latin",
+          "Italian; Latin"
+        ],
+        "to": "Italian;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "German with Latin calendar and colophon",
+          "German, with Latin headings and terms"
+        ],
+        "to": "German;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Middle High German, with some Latin",
+          "Middle High German, with some headings and sections in Latin"
+        ],
+        "to": "Middle High German;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Italian, with a preface in Latin"
+        ],
+        "to": "Italian;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Italian, with some Latin"
+        ],
+        "to": "Italian;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin (f. 1r-5r) and Italian with rubrics in Latin (f. 5v-20r)"
+        ],
+        "to": "Latin;Italian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin and German (lower Alemannic with middle German idioms)"
+        ],
+        "to": "Latin;German"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin and Italian"
+        ],
+        "to": "Latin;Italian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin and Middle High German"
+        ],
+        "to": "Latin;Middle High German"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, Middle French, and some words in Middle English (f. 214v)"
+        ],
+        "to": "Latin;Middle French;Middle English"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with a few notes in Italian"
+        ],
+        "to": "Latin;Italian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English and Latin"
+        ],
+        "to": "English;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English, with a fragment from a document in Latin (f. 76-78)"
+        ],
+        "to": "English;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "German, with dedications in Latin (p. 3-10)"
+        ],
+        "to": "German;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hebrew and Latin"
+        ],
+        "to": "Hebrew;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with a few poems in Italian (f. 106r-108v)"
+        ],
+        "to": "Latin;Italian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with a few words in Spanish (f. 7r)"
+        ],
+        "to": "Latin;Spanish"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with one inscription in Hebrew (f. 20r)"
+        ],
+        "to": "Latin;Hebrew"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with one section (f. 267r-272r) and some recipes, notes, and names in Italian"
+        ],
+        "to": "Latin;Italian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with one work in German (f. 167r-167v)"
+        ],
+        "to": "Latin;German"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with some French translations in the first conjugation table (f. 8r-9r)"
+        ],
+        "to": "Latin;French"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with some Hebrew characters"
+        ],
+        "to": "Latin;Hebrew"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with some passages in German (f. 10v, 20v-21r, 40v-43v, 83v-84v, 91r-93v) and Czech (f. 11v, 26v-28v)"
+        ],
+        "to": "Latin;German;Czech"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latin, with some words in German (f. 54r, 55r, 89r)"
+        ],
+        "to": "Latin;German"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Middle French and Latin"
+        ],
+        "to": "Middle French;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Middle French, with some sections in Latin (f. 77r-81v, 85v-87r, 93r-98r, 137v, 141r)"
+        ],
+        "to": "Middle French;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Plant names in Latin, with a few words in Italian (f. 2r-53v); texts about Morocco in English, Spanish, and Latin (54r-97v); glossary of words in Arabic, Spanish, and Latin (f. 98r-101r)"
+        ],
+        "to": "Latin;Italian;English;Spanish;Latin;Arabic"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Latin",
+          "name": "Language(s)",
+          "caseSensitive": false,
+          "columnName": "Language(s)",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Yiddish, in Ashkenazi Hebrew characters, with a few words in Latin (f. 2r)"
+        ],
+        "to": "Yiddish;Latin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Added notes in Italian (Volume 1)"
+        ],
+        "to": "Italian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Arabic or Persian"
+        ],
+        "to": "Arabic;Persian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Arabic, with commentary in Ottoman Turkish"
+        ],
+        "to": "Arabic;Ottoman Turkish"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Arabic, with some Persian"
+        ],
+        "to": "Arabic;Persian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Coptic, with headings (f. 1-2) and commentary (f. 5) in Arabic"
+        ],
+        "to": "Coptic;Arabic"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Demotic, with a subscription in Greek"
+        ],
+        "to": "Demotic;Greek"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English, with at least one brief section in French (Volume 2, p. 1122-1123) and a copy of a worker's agreement in Urdu (Hindustani) (Volume 3, f. 156r)"
+        ],
+        "to": "English;French;Urdu"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Headings and a note in French"
+        ],
+        "to": "French"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hebrew, with occasional notes in Italian (f. 22r, 24v, 26v, 27v, 82v, 83v)"
+        ],
+        "to": "Hebrew;Italian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "In French, with English captions on engravings"
+        ],
+        "to": "French;English"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Persian and Arabic"
+        ],
+        "to": "Persian;Arabic"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Persian, with final pages in Hindi and using Sanskrit words"
+        ],
+        "to": "Persian;Hindi;Sanskrit"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language(s)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Language(s)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Predominant work in Hebrew (p. 19-234), with shorter works in Judeo-Arabic"
+        ],
+        "to": "Hebrew;Judeo-Arabic"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Place using expression grel:replace(value,\"?\",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "grel:replace(value,\"?\",\"\")",
+    "onError": "keep-original",
+    "repeat": true,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Place using expression grel:replace(value,\"or \",\";\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "grel:replace(value,\"or \",\";\")",
+    "onError": "keep-original",
+    "repeat": true,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Italy, ca. 1450-1499"
+        ],
+        "to": "Italy"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "London, ca. 1407, 1427"
+        ],
+        "to": "London"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Paris, France"
+        ],
+        "to": "Paris"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Recanati, Italy"
+        ],
+        "to": "Italy"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Rome, Italy"
+        ],
+        "to": "Rome"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Samarqand, Uzbekistan"
+        ],
+        "to": "Uzbekistan"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seville, Spain"
+        ],
+        "to": "Spain"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Toulouse, France"
+        ],
+        "to": "France"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Verona, Italy"
+        ],
+        "to": "Verona"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Venice, Italy"
+        ],
+        "to": "Venice"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Buchau, Germany"
+        ],
+        "to": "Germany"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cairo, Egypt"
+        ],
+        "to": "Egypt"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cambridge, England"
+        ],
+        "to": "England"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Deccan, India"
+        ],
+        "to": "India"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "England and Spain"
+        ],
+        "to": "England;Spain"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ferrara, Italy"
+        ],
+        "to": "Italy"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Florence, Italy"
+        ],
+        "to": "Florence"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "France, ca. 1490"
+        ],
+        "to": "France"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Germany ;Italy and Prague ;Austria"
+        ],
+        "to": "Germany ;Italy;Prague ;Austria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gravesend, England"
+        ],
+        "to": "England"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Herat, Afghanistan"
+        ],
+        "to": "Afghanistan"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Iraq ;Persia, A.H. 1084 (1674)"
+        ],
+        "to": "Iraq ;Persia"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Iraq, A.H. 869 (1464)"
+        ],
+        "to": "Iraq"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "IsÃ£fahaÃÑn, Iran"
+        ],
+        "to": "Iran"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Lambach, Austria"
+        ],
+        "to": "Austria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Lorraine, France"
+        ],
+        "to": "France"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mainz, Germany"
+        ],
+        "to": "Germany"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Manila, Philippines"
+        ],
+        "to": "Philippines"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mosul, Iraq"
+        ],
+        "to": "Mosul"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nagasaki, Japan"
+        ],
+        "to": "Japan"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nuremberg, Germany"
+        ],
+        "to": " Germany"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oxford, England"
+        ],
+        "to": "England"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Place",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Padua, Italy"
+        ],
+        "to": "Padua"
+      }
+    ]
+  }
+]
